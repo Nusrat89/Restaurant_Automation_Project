@@ -37,11 +37,3 @@ The project includes several classes:
 When the program starts, it loads waiter information from `waiters.txt`, creates the restaurant tables, and loads the menu.
 
 After logging in, a waiter can view their assigned tables, select a table, choose menu items, and add them to an order. The order is also added to the kitchen queue.
-
-## What I Learned
-
-This project helped me practice Java, object-oriented programming, Java Swing, file handling, lists and queues, and basic software design.
-
-## Academic Project
-
-This was created as a student project to practice software development and object-oriented programming.
