@@ -1,17 +1,17 @@
 # Restaurant Automation System
 
-A Java Swing application designed to help restaurant waiters manage tables and customer orders.
+A Java Swing project I built to help restaurant waiters manage tables and customer orders.
 
 ## Features
 
-* Waiter login system
+* Waiter login
 * 30 restaurant tables
 * View assigned tables
-* Table status tracking: Open, Occupied, and Dirty
-* Menu organized by categories
-* Add menu items to customer orders
-* Kitchen order queue
-* Waiter information loaded from a text file
+* Track table status: Open, Occupied, and Dirty
+* Browse menu items by category
+* Add items to customer orders
+* Add orders to a kitchen queue
+* Load waiter information from a text file
 
 ## Technologies Used
 
@@ -21,27 +21,27 @@ A Java Swing application designed to help restaurant waiters manage tables and c
 
 ## Project Structure
 
-The project includes classes for:
+The project includes several classes:
 
-* `RestaurantApp` – Main application and initialization
-* `Table` – Stores table number, status, and orders
+* `RestaurantApp` – Main application
+* `Table` – Stores table information and orders
 * `Waiter` – Stores waiter information and assigned tables
-* `MenuItem` – Stores menu category and item information
+* `MenuItem` – Stores menu items and categories
 * `LoginFrame` – Handles waiter login
-* `FloorFrame` – Displays assigned tables and their status
-* `TableFrame` – Displays table details
-* `MenuFrame` – Allows waiters to select and add menu items
+* `FloorFrame` – Shows assigned tables
+* `TableFrame` – Shows table details
+* `MenuFrame` – Lets waiters select menu items
 
 ## How It Works
 
-When the application starts, waiter information is loaded from `waiters.txt`, restaurant tables are initialized, and the menu is created.
+When the program starts, it loads waiter information from `waiters.txt`, creates the restaurant tables, and loads the menu.
 
-After logging in, a waiter can view their assigned tables, select a table, choose menu items, and add them to the customer's order. Added orders are also placed into a kitchen queue.
+After logging in, a waiter can view their assigned tables, select a table, choose menu items, and add them to an order. The order is also added to the kitchen queue.
 
 ## What I Learned
 
-Through this project, I practiced Java programming, object-oriented programming, GUI development with Swing, working with files, collections such as lists and queues, and basic system design.
+This project helped me practice Java, object-oriented programming, Java Swing, file handling, lists and queues, and basic software design.
 
-## Note
+## Academic Project
 
-This project was created as an academic project to practice software development and object-oriented programming.
+This was created as a student project to practice software development and object-oriented programming.
