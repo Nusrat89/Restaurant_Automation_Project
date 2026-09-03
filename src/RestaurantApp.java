@@ -125,9 +125,6 @@ class LoginFrame extends JFrame {
             String u = user.getText();
             String p = new String(pass.getPassword());
 
-            // Debugging: Print out entered credentials
-            System.out.println("Username: " + u + ", Password: " + p);
-
             // Validate credentials
             for (Waiter w : RestaurantApp.waiters) {
                 if (w.name.equals(u) && w.password.equals(p)) {
